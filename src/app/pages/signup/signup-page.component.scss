@@ -1,0 +1,33 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+
+    h2{
+        color: white;
+    }
+
+    input{
+        height: 2.32em;
+    }
+
+    .actions{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        place-items: center;
+      }
+      
+      
+      .submit{
+      color: white;
+      background-color: #F0B90B;
+      padding: 0.5em;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      }
+
+      img{
+        width: 2em;
+      }
+}

@@ -1,0 +1,16 @@
+.contact-page{
+    .contact-actions{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        place-items: center;
+    }
+}
+
+.add-link{
+    color: white;
+    background-color: #F0B90B;
+    padding: 0.5em;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
