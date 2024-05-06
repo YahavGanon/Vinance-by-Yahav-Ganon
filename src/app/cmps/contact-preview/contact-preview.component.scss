@@ -1,13 +1,31 @@
 .contact-preview {
 //   width: fit-content;
-  background-color: aquamarine;
+  background-color:#F0B90B;;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   .actions {
+    display: flex;
+    place-items: center;
     a {
       margin-right: 20px;
+      width: 3em;
+      height: 2em;
+      display: flex;
+      place-items: center;
+      justify-content: center;
+      background-color: #181A20;
+      color: white;
+      border-radius: 5px;
+    }
+
+    button{
+      width: 3em;
+      height: 2.4em;
+      background-color: #181A20;
+      color: white;
+      border-radius: 5px;
     }
     margin-bottom: 10px;
   }

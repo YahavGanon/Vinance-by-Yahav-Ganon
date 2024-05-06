@@ -6,11 +6,15 @@ import { Contact } from 'src/app/models/contact.model';
     templateUrl: './contact-preview.component.html',
     styleUrls: ['./contact-preview.component.scss']
 })
-export class ContactPreviewComponent  {
+export class ContactPreviewComponent {
 
-    @Input() contact: Contact
-    @Output() onRemove = new EventEmitter<string>()
+    @Input() contact: Contact;
+    @Output() onRemove = new EventEmitter<string>();
+
     constructor() { }
 
-
+    getRandomNumber(): number {
+        return Math.floor(Math.random() * 69) + 1;
+    }
 }
+

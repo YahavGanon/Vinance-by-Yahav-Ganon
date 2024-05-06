@@ -22,4 +22,7 @@ export class ContactDetailsComponent {
     }
 
 
+    getRandomNumber(): number {
+        return Math.floor(Math.random() * 69) + 1;
+    }
 }
