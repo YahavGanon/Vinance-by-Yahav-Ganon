@@ -112,12 +112,5 @@
         }
       }
     }
-  },
-  "defaultProject": "mister-bitcoin-try",
-  "cli": {
-    "cache": {
-      "enabled": false
-    },
-    "analytics": false
   }
 }
